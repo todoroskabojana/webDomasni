@@ -1,0 +1,193 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Контролен панел за паметен дом</title>
+</head>
+<body>
+    <header>
+        <h1>Контролен панел за паметен дом</h1>
+        <p>Добредојдовте во системот за централен надзор и управување со домашните простории. Оваа страница овозможува следење на статусите и параметрите на сензорите во реално време.</p>
+        <p>Домот ги содржи следниве простории:</p>
+        <nav>
+            <ul>
+                <li><a href="#dnevna">Дневна</a></li>
+                <li><a href="#spalna">Спална</a></li>
+                <li><a href="#kujna">Кујна</a></li>
+                <li><a href="#gradina">Градина</a></li>
+            </ul>
+        </nav>
+    <p>Тука можете да пристапите до нотификациите од сензорите во домот:</p>
+<nav>
+    <ul>
+   <li><a href="#notifikacii">Нотификации</a></li>
+</ul>
+</nav>
+    </header>
+    <br>
+    <br>
+    <br>
+    <section id="dnevna">
+        <h2>Дневна</h2>
+        <h3>Сензори во дневната:</h3>
+        <article>
+            <p><strong>Сензор за температура</strong></p>
+            <p>Тековна температура: <strong>22°C</strong> | Оптимална зона (20°C - 24°C): <input type="checkbox" checked disabled></p>
+            <p>Статус: <mark>Вклучен</mark></p>
+            <p>Ниво на батерија: <meter min="0" max="100" value="33">33%</meter></p>
+            <details>
+                <summary>Правила за вредносни зони на сензор</summary>
+                <p>Безбеден опсег: 18°C - 26°C.</p>
+            </details>
+        </article>
+        <article>
+            <p><strong>Сензор за светлина</strong></p>
+            <p>Ниво на светлина: <input type="range" min="0" max="100" value="27" disabled></p>
+            <p>Статус: <mark>Вклучен</mark></p>
+            <p>Ниво на батерија: <meter min="0" max="100" value="10">10%</meter></p>
+            <details>
+                <summary>Правила за вредносни зони на сензор</summary>
+                <p>Минимум 20% осветленост.</p>
+            </details>
+        </article>
+        <article>
+            <p><strong>Сензор за хранење на миленичиња</strong></p>
+            <p>Време на хранење: <input type="time" value="09:00" disabled></p>
+            <p>Статус: <mark>Вклучен</mark></p>
+            <p>Ниво на батерија: <meter min="0" max="100" value="14">14%</meter></p>
+            <details>
+                <summary>Правила за вредносни зони на сензор</summary>
+                <p>Редовно хранење во 09:00 часот.</p>
+            </details>
+        </article>
+    </section>
+    <br>
+    <hr>
+    <section id="spalna">
+        <h2>Спална</h2>
+        <h3>Сензори во спалната:</h3>
+        <article>
+            <p><strong>Сензор за температура</strong></p>
+            <p>Тековна температура: <strong>19°C</strong> | Оптимална зона (20°C - 24°C): <input type="checkbox" disabled></p>
+            <p>Статус: <mark>Вклучен</mark></p>
+            <p>Ниво на батерија: <meter min="0" max="100" value="85">85%</meter></p>
+            <details>
+                <summary>Правила за вредносни зони на сензор</summary>
+                <p>Целодневен режим: 18°C - 21°C.</p>
+            </details>
+        </article>
+        <article>
+            <p><strong>Сензор за светлина</strong></p>
+            <p>Ниво на светлина: <input type="range" min="0" max="100" value="27" disabled></p>
+            <p>Статус: <mark>Вклучен</mark></p>
+            <p>Ниво на батерија: <meter min="0" max="100" value="33">33%</meter></p>
+            <details>
+                <summary>Правила за вредносни зони на сензор</summary>
+                <p>Автоматско гаснење по 23:00.</p>
+            </details>
+        </article>
+        <article>
+            <p><strong>Сензор за земање лекови</strong></p>
+            <p>Време за лек: <input type="time" value="08:00" disabled></p>
+            <p>Статус: <mark>Вклучен</mark></p>
+            <p>Ниво на батерија: <meter min="0" max="100" value="52">52%</meter></p>
+            <details>
+                <summary>Правила за вредносни зони на сензор</summary>
+                <p>Утринско земање на лекови во 08:00 часот.</p>
+            </details>
+        </article>
+    </section>
+    <br>
+    <hr>
+    <section id="kujna">
+        <h2>Кујна</h2>
+        <h3>Сензори во кујната:</h3>
+        
+        <article>
+            <p><strong>Сензор за температура</strong></p>
+            <p>Тековна температура: <strong>23°C</strong> | Оптимална зона (20°C - 24°C): <input type="checkbox" checked disabled></p>
+            <p>Статус: <mark>Исклучен</mark></p>
+            <p>Ниво на батерија: <meter min="0" max="100" value="26">26%</meter></p>
+            <details>
+                <summary>Правила за вредносни зони на сензор</summary>
+                <p>Дозволено до 30°C при готвење.</p>
+            </details>
+        </article>
+        <article>
+            <p><strong>Сензор за светлина</strong></p>
+            <p>Ниво на светлина: <input type="range" min="0" max="100" value="67" disabled></p>
+            <p>Статус: <mark>Вклучен</mark></p>
+            <p>Ниво на батерија: <meter min="0" max="100" value="87">87%</meter></p>
+            <details>
+                <summary>Правила за вредносни зони на сензор</summary>
+                <p>Работна површина минимум 60%.</p>
+            </details>
+        </article>
+        <article>
+            <p><strong>Сензор за чад</strong></p>
+            <p>Ниво на чад: <input type="range" min="0" max="100" value="10" disabled></p>
+            <p>Статус: <mark>Вклучен</mark></p>
+            <p>Ниво на батерија: <meter min="0" max="100" value="99">99%</meter></p>
+            <details>
+                <summary>Правила за вредносни зони на сензор</summary>
+                <p>Аларм при над 50%.</p>
+            </details>
+        </article>
+    </section>
+    <br>
+    <hr>
+    <section id="gradina">
+        <h2>Градина</h2>
+        <h3>Сензори во градината:</h3>
+        <article>
+            <p><strong>Сензор за температура</strong></p>
+            <p>Тековна температура: <strong>16°C</strong> | Оптимална зона (20°C - 24°C): <input type="checkbox" disabled></p>
+            <p>Статус: <mark>Исклучен</mark></p>
+            <p>Ниво на батерија: <meter min="0" max="100" value="16">16%</meter></p>
+            <details>
+                <summary>Правила за вредносни зони на сензор</summary>
+                <p>Предупредување при пад под 2°C.</p>
+            </details>
+        </article>
+        <article>
+            <p><strong>Сензор за светлина</strong></p>
+            <p>Ниво на светлина: <input type="range" min="0" max="100" value="79" disabled></p>
+            <p>Статус: <mark>Вклучен</mark></p>
+            <p>Ниво на батерија: <meter min="0" max="100" value="33">33%</meter></p>
+            <details>
+                <summary>Правила за вредносни зони на сензор</summary>
+                <p>Следење на сончева светлина.</p>
+            </details>
+        </article>
+        <article>
+            <p><strong>Сензор за наводнување на цвеќињата</strong></p>
+            <p>Време на наводнување: <input type="time" value="19:00" disabled></p>
+            <p>Статус: <mark>Вклучен</mark></p>
+            <p>Ниво на батерија: <meter min="0" max="100" value="35">35%</meter></p>
+            <details>
+                <summary>Правила за вредносни зони на сензор</summary>
+                <p>Вечерно наводнување во 19:00.</p>
+            </details>
+        </article>
+    </section>
+    <br>
+    <hr>
+    <section id="notifikacii">
+        <h2>Нотификации</h2>
+        <article>
+            <details>
+                <summary>Отвори ги известувањата</summary>
+                <ol>
+                    <li>Цвеќињата во градината се наводени.</li>
+                    <li>Батеријата е скоро празна (под 20%) на сензорите во дневната и градината.</li>
+                    <li>Температурата во спалната (19°C) и градината (16°C) е под нормалата.</li>
+                    <li>Сите останати сензори работат нормално.</li>
+                </ol>
+            </details>
+        </article>
+    </section>
+    <br>
+    <hr>
+
+</body>
+</html>
