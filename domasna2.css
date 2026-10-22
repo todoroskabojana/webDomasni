@@ -1,0 +1,40 @@
+/* pravilo br 1*/
+body {
+    font-family: "Times New Roman" ,Times ,serif; 
+    background-color: #f4f7f6;     
+    color: #333333;                
+    margin: 20px;                 
+}
+
+/* pravilo br 2*/
+header {
+    background-color: #c2005d;
+    color: white;
+    padding: 20px;                
+    border-radius: 10px;           
+}
+
+/* pravilo br 3 */
+h1 {
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4); 
+    
+}
+
+/* pravilo br 4 */
+section {
+    background-color: #fde9f4;
+    padding: 15px;
+    border: 1px solid #e0e0e0;     
+    border-radius: 6px;
+}
+
+/* pravilo br 5 */
+a {
+    color:rgb(255, 219, 247);
+    font-weight: bold;            
+}
+
+a:hover {
+    color: #ffffff;  
+}
+
