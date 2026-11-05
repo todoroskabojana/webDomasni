@@ -1,0 +1,171 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color:#e8e8e8;;
+    color: #222;
+}
+
+header {
+    background-color: #111;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+    padding: 20px;
+}
+
+header img {
+    width: 180px;
+    height: 75px;
+    object-fit: contain;
+}
+
+.header-title {
+    text-align: center;
+}
+
+header h1 {
+    font-size: 40px;
+    margin-bottom: 10px;
+}
+
+header p {
+    font-size: 18px;
+}
+
+main {
+    width: 90%;
+    max-width: 1200px;
+    margin: 30px auto;
+}
+
+section {
+    background-color: white;
+    margin-bottom: 25px;
+    padding: 25px;
+    border-radius: 10px;
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.12);
+}
+
+h2 {
+    margin-bottom: 15px;
+}
+
+
+/* Информации за трката */
+
+#race-info {
+    text-align: center;
+}
+
+#current-lap {
+    font-weight: bold;
+    font-size: 20px;
+}
+
+#start-race {
+    margin-top: 15px;
+    padding: 12px 25px;
+    font-size: 16px;
+    font-weight: bold;
+    border: none;
+    border-radius: 6px;
+    background-color: #d90429;
+    color: white;
+    cursor: pointer;
+}
+
+#start-race:hover {
+    background-color: #a90320;
+}
+
+#reset-race {
+    margin-top: 15px;
+    margin-left: 10px;
+    padding: 12px 25px;
+    font-size: 16px;
+    font-weight: bold;
+    border: none;
+    border-radius: 6px;
+    background-color: #333;
+    color: white;
+    cursor: pointer;
+}
+
+#reset-race:hover {
+    background-color: #555;
+}
+
+
+/* Табели */
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+}
+
+th,
+td {
+    border: 1px solid #ccc;
+    padding: 12px;
+    text-align: center;
+}
+
+th {
+    background-color: #222;
+    color: white;
+}
+
+tbody tr:nth-child(even) {
+    background-color: #f5f5f5;
+}
+
+tbody tr:hover {
+    background-color: #e9e9e9;
+}
+
+tbody tr {
+    transition: background-color 0.2s ease;
+}
+
+/* Резултат */
+
+#winner {
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    padding: 15px;
+    background-color: #f2f2f2;
+    border-radius: 8px;
+}
+
+#winner-name {
+    color: #d90429;
+}
+
+#results-table {
+    margin-top: 20px;
+}
+
+#results-table th {
+    background-color: #d90429;
+}
+
+
+
+/* Footer */
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #111;
+    color: white;
+    margin-top: 30px;
+}
